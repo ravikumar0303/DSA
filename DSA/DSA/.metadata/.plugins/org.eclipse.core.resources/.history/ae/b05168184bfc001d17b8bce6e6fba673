@@ -1,0 +1,36 @@
+package DoubleLL;
+
+public class Student {
+	
+	 private int roll;
+	 private String name;
+	
+	public int getRoll() {
+		return  roll;
+	}
+	public void setRoll(int roll) {
+		this.roll = roll;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public Student()
+	{
+		roll=117;
+		name="Ravi";
+	}
+	
+	public Student(int i,String r)
+	{
+		roll=i;
+		name=r;
+	}
+	public String ToString() {
+		 return "Roll " +roll+ "Name" +name;
+	}
+
+}

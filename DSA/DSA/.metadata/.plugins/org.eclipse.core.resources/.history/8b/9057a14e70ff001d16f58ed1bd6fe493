@@ -1,0 +1,15 @@
+package Tree;
+
+public class Node {
+
+	private  int  data;
+    private Node Lchild,Rchild;
+    
+    
+	public Node(int data) {
+		super();
+		this.data = data;
+	}
+    
+    
+}

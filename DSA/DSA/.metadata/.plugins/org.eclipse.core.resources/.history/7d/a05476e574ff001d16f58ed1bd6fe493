@@ -1,0 +1,45 @@
+package Tree;
+
+public class Tree {
+
+	private Node root;
+
+	public Tree() {
+
+		root = null;
+	}
+
+	public Node getRoot() {
+		return root;
+	}
+
+	public void setRoot(Node root) {
+		this.root = root;
+	}
+
+	public boolean insert(int i) {
+		// TODO Auto-generated method stub
+		Node nn = new Node(i);
+		if (nn == null) {
+			return false;
+		}
+		if (root == null) {
+			root = nn;
+
+		}
+		Node n1=root;
+
+		return true;
+	}
+
+	public Object getroot() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void inorder(Object getroot) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

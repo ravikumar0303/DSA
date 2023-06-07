@@ -1,0 +1,16 @@
+
+public class VariableArray {
+	
+	public static void main (String args[])
+	{
+		int s=0 ;
+		//accept cmdline argument and add them
+				for (int i=0 ;i<args.length ;i++)
+				{    
+					System.out.print(args[i]);
+					s=s+Integer.parseInt(args[i]);
+				}
+		System.out.println("\n Addition is :"+s);
+	}
+
+}

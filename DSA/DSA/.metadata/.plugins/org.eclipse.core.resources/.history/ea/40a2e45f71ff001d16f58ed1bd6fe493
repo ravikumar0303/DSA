@@ -1,0 +1,13 @@
+package Tree;
+
+public class TreeImplement {
+	
+	
+	public static void main(String [] args) {
+		
+		
+		Tree T=new Tree();
+		
+	}
+
+}

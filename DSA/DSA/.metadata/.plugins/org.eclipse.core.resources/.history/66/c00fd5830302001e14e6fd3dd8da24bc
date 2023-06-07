@@ -1,0 +1,42 @@
+package Tree;
+//import java.util.Scanner;
+public class TreeService {
+
+	public static void main(String[] args) {
+		
+//		Scanner sc=new Scanner(System.in);
+//		int v=0;
+		Tree t = new Tree();
+		t.insert(12);
+		t.insert(112);
+		t.insert(123);
+		t.insert(312);
+		t.insert(212);
+		t.insert(412);
+		t.insert(512);
+//		System.out.println("{12,112,123,321,212,412,512,}");
+		
+		//Inorder Without Recursion
+//		System.out.print("Inorder--> ");
+//		t.inorder();
+		
+//		Inorder with Recursion
+//		System.out.print("Inorder--> ");
+//		t.inorder(t.getRoot());
+		
+//		System.out.println("Enter your Delete Element>");
+//		t.delete(512);
+//		System.out.print("\nInorder--> ");
+//		t.inorder();
+		
+//		Preorder Without Recursion
+		System.out.println("Preorder-->");
+		t.preorder();
+		
+//		Preorder with Recursion
+		System.out.println("With Recursion");
+		
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package Tree;
+
+public class Node {
+
+	private int data;
+	private Node Lchild, Rchild;
+
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
+		this.data = data;
+	}
+
+	public Node getLchild() {
+		return Lchild;
+	}
+
+	public void setLchild(Node lchild) {
+		Lchild = lchild;
+	}
+
+	public Node getRchild() {
+		return Rchild;
+	}
+
+	public void setRchild(Node rchild) {
+		Rchild = rchild;
+	}
+
+	public Node(int data) {
+		super();
+		this.data = data;
+	}
+
+}
